@@ -12,7 +12,8 @@ class MusicServiceTest {
 		Music music = service.getByCode("A01");
 
 		assertEquals("Jay",music.getName());
-
+		
+		
 	}
 
 }
