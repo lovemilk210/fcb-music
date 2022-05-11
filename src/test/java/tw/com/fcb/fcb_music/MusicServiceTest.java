@@ -11,6 +11,7 @@ class MusicServiceTest {
 		MusicService service = new MusicServiceImpl();
 		Music music = service.getByCode("A01");
 
+		
 		assertEquals("Jay",music.getName());
 	}
 
