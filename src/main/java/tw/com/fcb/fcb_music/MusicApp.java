@@ -7,6 +7,9 @@ public class MusicApp {
 		MusicService service = new MusicServiceImpl();
 		Music music = service.getByCode("A01");
 		System.out.println(music);
+		
+		
 	}
+	
 
 }
